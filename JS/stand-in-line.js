@@ -5,12 +5,14 @@
 
 function nextInLine(arr, item) {
   // Only change code below this line
-  var removed=arr[0];
   var lastIndex=arr.length-1;
+  var removed=arr[0];
   var last=arr[lastIndex];
+  console.log(removed);
   console.log(last);
   
-  return item;
+  return removed;
+ // return item;
   // Only change code above this line
 }
 
